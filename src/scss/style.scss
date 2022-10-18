@@ -76,16 +76,30 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 153.5%;
-  letter-spacing: 0.045em;
+  line-height: 158%;
+  letter-spacing: 0.065em;
   color: #000000;
+  transition: all 2000ms ease-in-out;
+}
+.header__nav li a:hover {
+  text-decoration-line: underline;
 }
 .header__phone {
   align-items: center;
   margin-top: 56.5px;
 }
-.phone__link {
+.header__phone img {
+  margin-top: 4px;
+}
+.phone__num {
   margin-left: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 153.5%;
+  letter-spacing: 0.045em;
+  color: #000000;
 }
 .header__button {
   padding: 10px 15px;
