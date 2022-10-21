@@ -156,6 +156,12 @@ h6 {
   padding-top: 29px;
 }
 
+.header__logo a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 .logo__text {
   font-family: "Alegreya Sans";
   font-style: normal;
@@ -163,6 +169,7 @@ h6 {
   font-size: 30px;
   letter-spacing: 0.045em;
   color: #000000;
+  padding-top: 7px;
 }
 
 .header__nav {
@@ -208,7 +215,7 @@ h6 {
 }
 
 .phone__num {
-  margin-left: 4px;
+  margin-left: 7px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
