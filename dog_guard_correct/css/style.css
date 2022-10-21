@@ -144,6 +144,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__logo {
@@ -215,7 +218,6 @@ h6 {
 }
 
 .phone__num {
-  margin-left: 7px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -239,7 +241,24 @@ h6 {
   -ms-flex-positive: 0;
       flex-grow: 0;
   margin-top: 45px;
-  margin-left: 67px;
+  margin-left: 60px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*button text*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 153.5%;
+  letter-spacing: 0.045em;
+  text-transform: capitalize;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.header__button a {
+  color: #000000;
 }
 
 @media (max-width: 992px) {
