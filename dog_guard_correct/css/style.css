@@ -160,7 +160,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*padding-top: 29px;*/
 }
 
 .header__logo a {
@@ -184,7 +183,6 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  /*margin-top: 56.5px;*/
   margin-left: 135px;
   margin-right: 69px;
 }
@@ -214,7 +212,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*margin-top: 56.5px;*/
   margin-right: 60px;
 }
 
@@ -268,9 +265,20 @@ h6 {
   color: #ffea29;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1436px) {
   ._container {
     padding: 0px 50px;
+  }
+}
+
+@media (max-width: 1277px) {
+  .header__nav li {
+    margin-left: 20px;
+  }
+
+  .header__phone {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
