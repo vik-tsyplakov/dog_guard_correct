@@ -147,6 +147,10 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 153px;
 }
 
 .header__logo {
@@ -156,7 +160,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 29px;
+  /*padding-top: 29px;*/
 }
 
 .header__logo a {
@@ -180,7 +184,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  margin-top: 56.5px;
+  /*margin-top: 56.5px;*/
   margin-left: 135px;
   margin-right: 69px;
 }
@@ -210,7 +214,8 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 56.5px;
+  /*margin-top: 56.5px;*/
+  margin-right: 60px;
 }
 
 .header__phone img {
@@ -240,8 +245,6 @@ h6 {
           flex: none;
   -ms-flex-positive: 0;
       flex-grow: 0;
-  margin-top: 45px;
-  margin-left: 60px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -252,13 +255,17 @@ h6 {
   font-weight: 900;
   line-height: 153.5%;
   letter-spacing: 0.045em;
-  text-transform: capitalize;
   white-space: nowrap;
   font-size: 20px;
+  -webkit-transition: all ease-in-out 200ms;
+  -o-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
 }
 
-.header__button a {
-  color: #000000;
+.header__button:hover {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffea29;
 }
 
 @media (max-width: 992px) {

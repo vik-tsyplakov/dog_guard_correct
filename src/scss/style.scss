@@ -48,11 +48,13 @@
 .header__block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 153px;
 }
 .header__logo {
   display: flex;
   align-items: center;
-  padding-top: 29px;
+  /*padding-top: 29px;*/
 }
 .header__logo a {
   display: inline-flex;
@@ -69,7 +71,7 @@
 .header__nav {
   display: flex;
   list-style-type: none;
-  margin-top: 56.5px;
+  /*margin-top: 56.5px;*/
   margin-left: 135px;
   margin-right: 69px;
 }
@@ -91,7 +93,8 @@
 }
 .header__phone {
   align-items: center;
-  margin-top: 56.5px;
+  /*margin-top: 56.5px;*/
+  margin-right: 60px;
 }
 .header__phone img {
   margin-top: 4px;
@@ -115,8 +118,6 @@
   border-radius: 5px;
   flex: none;
   flex-grow: 0;
-  margin-top: 45px;
-  margin-left: 60px;
   text-align: center;
   justify-content: center;
   /*button text*/
@@ -125,10 +126,13 @@
   font-weight: 900;
   line-height: 153.5%;
   letter-spacing: 0.045em;
-  text-transform: capitalize;
   white-space: nowrap;
   font-size: 20px;
+  transition: all ease-in-out 200ms;
 }
-.header__button a {
-  color: #000000;
+
+.header__button:hover {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffea29;
 }
