@@ -168,3 +168,13 @@
   border: 1px solid #000000;
   color: #ffea29;
 }
+/*---MAIN----------------------------------------------------------------------------*/
+.main__container {
+  background: #ffea29;
+}
+.main__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 153px;
+}
