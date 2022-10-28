@@ -129,8 +129,6 @@ h6 {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0px 130px;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
 }
 
 /*---HEADER--------------------------------------------------------------------------*/
@@ -280,10 +278,14 @@ h6 {
 /*---MAIN----------------------------------------------------------------------------*/
 
 .main__container {
-  background: #ffea29;
+  background: rgb(26, 26, 26);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(26, 26, 26)), color-stop(83%, rgb(7, 7, 7)));
+  background: -o-linear-gradient(left, rgb(26, 26, 26) 0%, rgb(7, 7, 7) 83%);
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, rgb(7, 7, 7) 83%);
+  height: 100%;
 }
 
-.main__block {
+.main__block1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,7 +295,23 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 153px;
+  position: relative;
+  z-index: 1;
+  height: 747px;
+}
+
+.block1__background {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 
 @media (max-width: 1436px) {
