@@ -387,19 +387,20 @@ h6 {
   margin-top: 212px;
 }
 
-.lang {
+.lang a {
   font-family: "Lato";
   font-style: normal;
-  font-weight: 900;
   font-size: 18px;
   line-height: 153.5%;
   letter-spacing: 0.045em;
   color: #ffffff;
   margin-right: 48px;
+  font-weight: 400;
 }
 
-.lang_active {
+.lang_active a {
   text-decoration-line: underline;
+  font-weight: 900;
 }
 
 @media (max-width: 1436px) {
