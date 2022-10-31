@@ -217,3 +217,23 @@
   margin-top: 8px;
   z-index: 1;
 }
+.block1__button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 158%;
+  letter-spacing: 0.065em;
+  color: #000000;
+  padding: 10px 15px;
+  gap: 10px;
+  position: absolute;
+  width: 215px;
+  height: 52px;
+  left: 133px;
+  top: 488px;
+  background: #ffea29;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  white-space: nowrap;
+}
