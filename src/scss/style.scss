@@ -181,7 +181,6 @@
   position: relative;
   z-index: 1;
 }
-
 .block1__background {
   position: absolute;
   z-index: 0;
@@ -195,6 +194,10 @@
 .block1 {
   display: block;
   z-index: 1;
+  width: 100%;
+}
+.block1__main {
+  max-width: 656px;
 }
 .block1__title {
   font-family: "Lato";
@@ -254,10 +257,6 @@
   display: flex;
   margin-top: 212px;
   justify-content: space-between;
-}
-@media (max-width: 1272px) {
-  .block1__footer {
-  }
 }
 .lang_container {
   display: flex;

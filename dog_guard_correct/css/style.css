@@ -317,6 +317,11 @@ h6 {
 .block1 {
   display: block;
   z-index: 1;
+  width: 100%;
+}
+
+.block1__main {
+  max-width: 656px;
 }
 
 .block1__title {
